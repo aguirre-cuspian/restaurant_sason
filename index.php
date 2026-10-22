@@ -187,8 +187,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login']) && empty($er
         .devs-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            padding: 20px 30px 35px 30px;
+            gap: 5px;
+            padding: 5px 5px 5px 5px;
         }
 
         .dev-card {
@@ -205,14 +205,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login']) && empty($er
         }
 
         .dev-avatar {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            border-radius:50%;
             object-fit: cover;
-            margin: 0 auto 12px auto;
+            margin: 0 auto 19px auto;
             border: 3px solid #10b981;
             background-color: #e5e7eb;
         }
+
         .dev-name {
             margin: 0 0 6px 0;
             font-size: 17px;
@@ -417,28 +418,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login']) && empty($er
                 <p class="dev-desc">Servicio Nacional de Aprendizaje</p>
             </div>
             <div class="dev-card">
-                <img src="imagen/escudo.jpg" alt="escudo SENA" class="dev-avatar">
+                <img src="imagen/escudo.webp" alt="escudo SENA" class="dev-avatar">
                 <h3 class="dev-name">Escudo</h3>
                 <p class="dev-role">Institución Educativa</p>
-                <p class="dev-desc">Servicio Nacional de Aprendizaje</p>
+                <p class="dev-desc">Misael Pastrana Borrero</p>
             </div>
             <div class="dev-card">
-                <img src="imagen/desa1.jpeg" alt="Foto Lubín Andrey" class="dev-avatar">
+                <img src="imagen/desa1.jpeg" alt="Foto Lubín" class="dev-avatar">
                 <h3 class="dev-name">Lubín Andrey</h3>
-                <p class="dev-role">Lead Frontend</p>
-                <p class="dev-desc">Diseño de interfaces modernas y experiencia de usuario.</p>
+                <p class="dev-role">Developer</p>
+                <p class="dev-desc">Programación, estructura técnica y construcción de la aplicación.</p>
             </div>
             <div class="dev-card">
-                <img src="imagen/desa2.jpeg" alt="Foto Yeferson Estiben" class="dev-avatar">
+                <img src="imagen/desa2.jpeg" alt="Foto Yeferson" class="dev-avatar">
                 <h3 class="dev-name">Yeferson Estiben</h3>
-                <p class="dev-role">Backend Engineer</p>
-                <p class="dev-desc">Lógica de servidores y arquitectura de bases de datos.</p>
+                <p class="dev-role">Developer</p>
+                <p class="dev-desc">Implementación de funciones y mantenimiento del sistema.</p>
             </div>
             <div class="dev-card">
-                <img src="imagen/desa3.jpeg" alt="Foto Dann Yasuri" class="dev-avatar">
-                <h3 class="dev-name">Dann Yasuri</h3>
-                <p class="dev-role">UI/UX Designer</p>
-                <p class="dev-desc">Flujos de usuario e identidad visual de la plataforma.</p>
+                <img src="imagen/desa3.jpeg" alt="Foto Danna" class="dev-avatar">
+                <h3 class="dev-name">Danna Yasuri</h3>
+                <p class="dev-role">Developer</p>
+                <p class="dev-desc">Coordinación general, diseño de la plataforma y dirección del proyecto.</p>
             </div>
             <!-- Puedes agregar más tarjetas aquí y la barra aparecerá automáticamente -->
             <!-- <div class="dev-card"> ... </div> -->

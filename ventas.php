@@ -1767,7 +1767,7 @@ style="display:none;">
                     </option>
 
                     <option value="2">
-                        Nequi
+                        Otros Medios
                     </option>
 
                 </select>
